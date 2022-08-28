@@ -1,5 +1,13 @@
 {
     "items": {
+        "putty": {
+            "type": "item",
+            "title": "PuTTY",
+            "command": [
+                "cmd.exe", "/c", "start", "putty.exe"
+            ],
+            "iconPath": "putty.exe"
+        },
         "open-cmd": {
             "type": "item",
             "title": "Open in CMD",
@@ -96,9 +104,9 @@
             "type": "item",
             "title": "Open in Ubuntu",
             "command": [
-                "cmd.exe", "/c", "start", "wt.exe", "-p", "MINGW64", "-d", "%V"
+                "cmd.exe", "/c", "start", "wt.exe", "-p", "Ubuntu", "-d", "%V"
             ],
-            "iconPath": "C:/msys64/mingw64.ico"
+            "iconPath": "${manifestFolder}/icons/ubuntu.ico"
         },
         "open-msvc": {
             "type": "folder",
