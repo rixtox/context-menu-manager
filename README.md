@@ -1,5 +1,7 @@
 # Context Menu Manager
 
+![screenshot](./public/screenshot.png)
+
 A small utility to help me create customized context menus on Windows desktop and file explorer background. Mostly used
 for "Open this folder in XXX..." cases.
 
