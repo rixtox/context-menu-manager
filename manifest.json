@@ -12,7 +12,7 @@
             "type": "item",
             "title": "Open in CMD",
             "command": [
-                "cmd.exe", "/c", "start", "wt.exe", "-p", "Command Prompt", "-d", "%V"
+                "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "Command Prompt", "-d", "%V"
             ],
             "iconPath": "imageres.dll",
             "iconIndex": -5323
@@ -23,7 +23,7 @@
             "admin": true,
             "extended": true,
             "command": [
-                "cmd.exe", "/c", "start", "wt.exe", "-p", "Command Prompt", "-d", "%V"
+                "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "Command Prompt", "-d", "%V"
             ],
             "iconPath": "imageres.dll",
             "iconIndex": -5323
@@ -32,7 +32,7 @@
             "type": "item",
             "title": "Open in PowerShell",
             "command": [
-                "cmd.exe", "/c", "start", "wt.exe", "-p", "Windows PowerShell", "-d", "%V"
+                "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "Windows PowerShell", "-d", "%V"
             ],
             "iconPath": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
         },
@@ -42,7 +42,7 @@
             "admin": true,
             "extended": true,
             "command": [
-                "cmd.exe", "/c", "start", "wt.exe", "-p", "Windows PowerShell", "-d", "%V"
+                "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "Windows PowerShell", "-d", "%V"
             ],
             "iconPath": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
         },
@@ -50,7 +50,7 @@
             "type": "item",
             "title": "Open in MSYS2",
             "command": [
-                "cmd.exe", "/c", "start", "wt.exe", "-p", "MSYS2", "-d", "%V"
+                "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "MSYS2", "-d", "%V"
             ],
             "iconPath": "C:/msys64/msys2.ico"
         },
@@ -60,7 +60,7 @@
             "admin": true,
             "extended": true,
             "command": [
-                "cmd.exe", "/c", "start", "wt.exe", "-p", "MSYS2", "-d", "%V"
+                "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "MSYS2", "-d", "%V"
             ],
             "iconPath": "C:/msys64/msys2.ico"
         },
@@ -68,7 +68,7 @@
             "type": "item",
             "title": "Open in MINGW32",
             "command": [
-                "cmd.exe", "/c", "start", "wt.exe", "-p", "MINGW32", "-d", "%V"
+                "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "MINGW32", "-d", "%V"
             ],
             "iconPath": "C:/msys64/mingw32.ico"
         },
@@ -78,7 +78,7 @@
             "admin": true,
             "extended": true,
             "command": [
-                "cmd.exe", "/c", "start", "wt.exe", "-p", "MINGW32", "-d", "%V"
+                "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "MINGW32", "-d", "%V"
             ],
             "iconPath": "C:/msys64/mingw32.ico"
         },
@@ -86,7 +86,7 @@
             "type": "item",
             "title": "Open in MINGW64",
             "command": [
-                "cmd.exe", "/c", "start", "wt.exe", "-p", "MINGW64", "-d", "%V"
+                "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "MINGW64", "-d", "%V"
             ],
             "iconPath": "C:/msys64/mingw64.ico"
         },
@@ -96,7 +96,7 @@
             "admin": true,
             "extended": true,
             "command": [
-                "cmd.exe", "/c", "start", "wt.exe", "-p", "MINGW64", "-d", "%V"
+                "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "MINGW64", "-d", "%V"
             ],
             "iconPath": "C:/msys64/mingw64.ico"
         },
@@ -104,7 +104,7 @@
             "type": "item",
             "title": "Open in Ubuntu",
             "command": [
-                "cmd.exe", "/c", "start", "wt.exe", "-p", "Ubuntu", "-d", "%V"
+                "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "Ubuntu", "-d", "%V"
             ],
             "iconPath": "${manifestFolder}/icons/ubuntu.ico"
         },
@@ -118,7 +118,7 @@
                     "type": "item",
                     "title": "VS2022 MSVC 17 COM x86",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2022 MSVC 17 COM x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -127,7 +127,7 @@
                     "type": "item",
                     "title": "VS2022 MSVC 17 COM x64",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2022 MSVC 17 COM x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -136,7 +136,7 @@
                     "type": "item",
                     "title": "VS2022 MSVC 17 ENT x86",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2022 MSVC 17 ENT x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -145,7 +145,7 @@
                     "type": "item",
                     "title": "VS2022 MSVC 17 ENT x64",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2022 MSVC 17 ENT x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -154,7 +154,7 @@
                     "type": "item",
                     "title": "VS2022 MSVC 17 BuildTools x86",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2022 MSVC 17 BuildTools x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -163,7 +163,7 @@
                     "type": "item",
                     "title": "VS2022 MSVC 17 BuildTools x64",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2022 MSVC 17 BuildTools x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -176,7 +176,7 @@
                     "type": "item",
                     "title": "VS2019 MSVC 16 COM x86",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2019 MSVC 16 COM x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2019 MSVC 16 COM x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 46
@@ -185,7 +185,7 @@
                     "type": "item",
                     "title": "VS2019 MSVC 16 COM x64",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2019 MSVC 16 COM x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2019 MSVC 16 COM x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 46
@@ -194,7 +194,7 @@
                     "type": "item",
                     "title": "VS2019 MSVC 16 ENT x86",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2019 MSVC 16 ENT x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2019 MSVC 16 ENT x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 46
@@ -203,7 +203,7 @@
                     "type": "item",
                     "title": "VS2019 MSVC 16 ENT x64",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2019 MSVC 16 ENT x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2019 MSVC 16 ENT x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 46
@@ -212,7 +212,7 @@
                     "type": "item",
                     "title": "VS2019 MSVC 16 BuildTools x86",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2019 MSVC 16 BuildTools x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2019 MSVC 16 BuildTools x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 46
@@ -221,7 +221,7 @@
                     "type": "item",
                     "title": "VS2019 MSVC 16 BuildTools x64",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2019 MSVC 16 BuildTools x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2019 MSVC 16 BuildTools x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 46
@@ -234,7 +234,7 @@
                     "type": "item",
                     "title": "VS2017 MSVC 15 COM x86",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2017 MSVC 15 COM x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2017 MSVC 15 COM x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 41
@@ -243,7 +243,7 @@
                     "type": "item",
                     "title": "VS2017 MSVC 15 COM x64",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2017 MSVC 15 COM x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2017 MSVC 15 COM x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 41
@@ -252,7 +252,7 @@
                     "type": "item",
                     "title": "VS2017 MSVC 15 ENT x86",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2017 MSVC 15 ENT x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2017 MSVC 15 ENT x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 41
@@ -261,7 +261,7 @@
                     "type": "item",
                     "title": "VS2017 MSVC 15 ENT x64",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2017 MSVC 15 ENT x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2017 MSVC 15 ENT x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 41
@@ -270,7 +270,7 @@
                     "type": "item",
                     "title": "VS2017 MSVC 15 BuildTools x86",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2017 MSVC 15 BuildTools x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2017 MSVC 15 BuildTools x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 41
@@ -279,7 +279,7 @@
                     "type": "item",
                     "title": "VS2017 MSVC 15 BuildTools x64",
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2017 MSVC 15 BuildTools x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2017 MSVC 15 BuildTools x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 41
@@ -299,7 +299,7 @@
                     "title": "VS2022 MSVC 17 COM x86",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2022 MSVC 17 COM x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -309,7 +309,7 @@
                     "title": "VS2022 MSVC 17 COM x64",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2022 MSVC 17 COM x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -319,7 +319,7 @@
                     "title": "VS2022 MSVC 17 ENT x86",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2022 MSVC 17 ENT x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -329,7 +329,7 @@
                     "title": "VS2022 MSVC 17 ENT x64",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2022 MSVC 17 ENT x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -339,7 +339,7 @@
                     "title": "VS2022 MSVC 17 BuildTools x86",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2022 MSVC 17 BuildTools x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -349,7 +349,7 @@
                     "title": "VS2022 MSVC 17 BuildTools x64",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2022 MSVC 17 BuildTools x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -363,7 +363,7 @@
                     "title": "VS2019 MSVC 16 COM x86",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2019 MSVC 16 COM x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2019 MSVC 16 COM x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 46
@@ -373,7 +373,7 @@
                     "title": "VS2019 MSVC 16 COM x64",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2019 MSVC 16 COM x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2019 MSVC 16 COM x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 46
@@ -383,7 +383,7 @@
                     "title": "VS2019 MSVC 16 ENT x86",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2019 MSVC 16 ENT x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2019 MSVC 16 ENT x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 46
@@ -393,7 +393,7 @@
                     "title": "VS2019 MSVC 16 ENT x64",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2019 MSVC 16 ENT x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2019 MSVC 16 ENT x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 46
@@ -403,7 +403,7 @@
                     "title": "VS2019 MSVC 16 BuildTools x86",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2019 MSVC 16 BuildTools x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2019 MSVC 16 BuildTools x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 46
@@ -413,7 +413,7 @@
                     "title": "VS2019 MSVC 16 BuildTools x64",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2019 MSVC 16 BuildTools x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2019 MSVC 16 BuildTools x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 46
@@ -427,7 +427,7 @@
                     "title": "VS2017 MSVC 15 COM x86",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2017 MSVC 15 COM x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2017 MSVC 15 COM x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 41
@@ -437,7 +437,7 @@
                     "title": "VS2017 MSVC 15 COM x64",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2017 MSVC 15 COM x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2017 MSVC 15 COM x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 41
@@ -447,7 +447,7 @@
                     "title": "VS2017 MSVC 15 ENT x86",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2017 MSVC 15 ENT x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2017 MSVC 15 ENT x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 41
@@ -457,7 +457,7 @@
                     "title": "VS2017 MSVC 15 ENT x64",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2017 MSVC 15 ENT x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2017 MSVC 15 ENT x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 41
@@ -467,7 +467,7 @@
                     "title": "VS2017 MSVC 15 BuildTools x86",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2017 MSVC 15 BuildTools x86", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2017 MSVC 15 BuildTools x86", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 41
@@ -477,7 +477,7 @@
                     "title": "VS2017 MSVC 15 BuildTools x64",
                     "admin": true,
                     "command": [
-                        "cmd.exe", "/c", "start", "wt.exe", "-p", "VS2017 MSVC 15 BuildTools x64", "-d", "%V"
+                        "cmd.exe", "/c", "start", "wt.exe", "-w", "1", "new-tab", "-p", "VS2017 MSVC 15 BuildTools x64", "-d", "%V"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 41
