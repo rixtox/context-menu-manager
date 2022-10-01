@@ -232,7 +232,7 @@ func (c ContextMenu) CommandString(manifestDir string) string {
 	}
 	for _, part := range c.Command {
 		part = strings.ReplaceAll(part, "${manifestFolder}", manifestDir)
-		if strings.ContainsAny(part, " ") {
+		if strings.ContainsAny(part, " %") {
 			part = quoteWindowsPath(part)
 		}
 		command = append(command, part)
