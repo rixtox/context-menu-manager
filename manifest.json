@@ -12,7 +12,7 @@
             "type": "item",
             "title": "Open in CMD",
             "command": [
-                "wt.exe", "-w", "1", "new-tab", "-p", "Command Prompt", "-d", "%V/"
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "Command Prompt", "-d", "%V/"
             ],
             "iconPath": "imageres.dll",
             "iconIndex": -5323
@@ -23,7 +23,7 @@
             "admin": true,
             "extended": true,
             "command": [
-                "wt.exe", "-w", "1", "new-tab", "-p", "Command Prompt", "-d", "%V/"
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "Command Prompt", "-d", "%V/"
             ],
             "iconPath": "imageres.dll",
             "iconIndex": -5323
@@ -32,7 +32,7 @@
             "type": "item",
             "title": "Open in PowerShell",
             "command": [
-                "wt.exe", "-w", "1", "new-tab", "-p", "Windows PowerShell", "-d", "%V/"
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "Windows PowerShell", "-d", "%V/"
             ],
             "iconPath": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
         },
@@ -42,7 +42,7 @@
             "admin": true,
             "extended": true,
             "command": [
-                "wt.exe", "-w", "1", "new-tab", "-p", "Windows PowerShell", "-d", "%V/"
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "Windows PowerShell", "-d", "%V/"
             ],
             "iconPath": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
         },
@@ -50,7 +50,7 @@
             "type": "item",
             "title": "Open in MSYS2",
             "command": [
-                "wt.exe", "-w", "1", "new-tab", "-p", "MSYS2", "-d", "%V/"
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "MSYS2", "-d", "%V/"
             ],
             "iconPath": "C:/msys64/msys2.ico"
         },
@@ -60,15 +60,69 @@
             "admin": true,
             "extended": true,
             "command": [
-                "wt.exe", "-w", "1", "new-tab", "-p", "MSYS2", "-d", "%V/"
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "MSYS2", "-d", "%V/"
             ],
             "iconPath": "C:/msys64/msys2.ico"
+        },
+        "open-clang32": {
+            "type": "item",
+            "title": "Open in CLANG32",
+            "command": [
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "CLANG32", "-d", "%V/"
+            ],
+            "iconPath": "C:/msys64/CLANG32.ico"
+        },
+        "open-clang32-admin": {
+            "type": "item",
+            "title": "Open in CLANG32 (Admin)",
+            "admin": true,
+            "extended": true,
+            "command": [
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "CLANG32", "-d", "%V/"
+            ],
+            "iconPath": "C:/msys64/clang32.ico"
+        },
+        "open-clang64": {
+            "type": "item",
+            "title": "Open in CLANG64",
+            "command": [
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "CLANG64", "-d", "%V/"
+            ],
+            "iconPath": "C:/msys64/CLANG64.ico"
+        },
+        "open-clang64-admin": {
+            "type": "item",
+            "title": "Open in CLANG64 (Admin)",
+            "admin": true,
+            "extended": true,
+            "command": [
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "CLANG64", "-d", "%V/"
+            ],
+            "iconPath": "C:/msys64/clang64.ico"
+        },
+        "open-ucrt64": {
+            "type": "item",
+            "title": "Open in UCRT64",
+            "command": [
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "UCRT64", "-d", "%V/"
+            ],
+            "iconPath": "C:/msys64/UCRT64.ico"
+        },
+        "open-ucrt64-admin": {
+            "type": "item",
+            "title": "Open in UCRT64 (Admin)",
+            "admin": true,
+            "extended": true,
+            "command": [
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "UCRT64", "-d", "%V/"
+            ],
+            "iconPath": "C:/msys64/ucrt64.ico"
         },
         "open-mingw32": {
             "type": "item",
             "title": "Open in MINGW32",
             "command": [
-                "wt.exe", "-w", "1", "new-tab", "-p", "MINGW32", "-d", "%V/"
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "MINGW32", "-d", "%V/"
             ],
             "iconPath": "C:/msys64/mingw32.ico"
         },
@@ -78,7 +132,7 @@
             "admin": true,
             "extended": true,
             "command": [
-                "wt.exe", "-w", "1", "new-tab", "-p", "MINGW32", "-d", "%V/"
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "MINGW32", "-d", "%V/"
             ],
             "iconPath": "C:/msys64/mingw32.ico"
         },
@@ -86,7 +140,7 @@
             "type": "item",
             "title": "Open in MINGW64",
             "command": [
-                "wt.exe", "-w", "1", "new-tab", "-p", "MINGW64", "-d", "%V/"
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "MINGW64", "-d", "%V/"
             ],
             "iconPath": "C:/msys64/mingw64.ico"
         },
@@ -96,7 +150,7 @@
             "admin": true,
             "extended": true,
             "command": [
-                "wt.exe", "-w", "1", "new-tab", "-p", "MINGW64", "-d", "%V/"
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "MINGW64", "-d", "%V/"
             ],
             "iconPath": "C:/msys64/mingw64.ico"
         },
@@ -104,7 +158,7 @@
             "type": "item",
             "title": "Open in Ubuntu",
             "command": [
-                "wt.exe", "-w", "1", "new-tab", "-p", "Ubuntu", "-d", "%V/"
+                "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "Ubuntu", "-d", "%V/"
             ],
             "iconPath": "${manifestFolder}/icons/ubuntu.ico"
         },
@@ -118,7 +172,7 @@
                     "type": "item",
                     "title": "VS2022 MSVC 17 COM x86",
                     "command": [
-                        "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x86", "-d", "%V/"
+                        "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x86", "-d", "%V/"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -127,7 +181,7 @@
                     "type": "item",
                     "title": "VS2022 MSVC 17 COM x64",
                     "command": [
-                        "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x64", "-d", "%V/"
+                        "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x64", "-d", "%V/"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -136,7 +190,7 @@
                     "type": "item",
                     "title": "VS2022 MSVC 17 ENT x86",
                     "command": [
-                        "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x86", "-d", "%V/"
+                        "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x86", "-d", "%V/"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -145,7 +199,7 @@
                     "type": "item",
                     "title": "VS2022 MSVC 17 ENT x64",
                     "command": [
-                        "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x64", "-d", "%V/"
+                        "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x64", "-d", "%V/"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -154,7 +208,7 @@
                     "type": "item",
                     "title": "VS2022 MSVC 17 BuildTools x86",
                     "command": [
-                        "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x86", "-d", "%V/"
+                        "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x86", "-d", "%V/"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -163,7 +217,7 @@
                     "type": "item",
                     "title": "VS2022 MSVC 17 BuildTools x64",
                     "command": [
-                        "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x64", "-d", "%V/"
+                        "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x64", "-d", "%V/"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -183,7 +237,7 @@
                     "title": "VS2022 MSVC 17 COM x86",
                     "admin": true,
                     "command": [
-                        "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x86", "-d", "%V/"
+                        "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x86", "-d", "%V/"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -193,7 +247,7 @@
                     "title": "VS2022 MSVC 17 COM x64",
                     "admin": true,
                     "command": [
-                        "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x64", "-d", "%V/"
+                        "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x64", "-d", "%V/"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -203,7 +257,7 @@
                     "title": "VS2022 MSVC 17 ENT x86",
                     "admin": true,
                     "command": [
-                        "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x86", "-d", "%V/"
+                        "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x86", "-d", "%V/"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -213,7 +267,7 @@
                     "title": "VS2022 MSVC 17 ENT x64",
                     "admin": true,
                     "command": [
-                        "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x64", "-d", "%V/"
+                        "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x64", "-d", "%V/"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -223,7 +277,7 @@
                     "title": "VS2022 MSVC 17 BuildTools x86",
                     "admin": true,
                     "command": [
-                        "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x86", "-d", "%V/"
+                        "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x86", "-d", "%V/"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47
@@ -233,7 +287,7 @@
                     "title": "VS2022 MSVC 17 BuildTools x64",
                     "admin": true,
                     "command": [
-                        "wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x64", "-d", "%V/"
+                        "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x64", "-d", "%V/"
                     ],
                     "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 47

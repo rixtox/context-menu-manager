@@ -75,7 +75,7 @@ func createContextMenu(parent string, id string, item *ContextMenu, manifestDir 
 			err = fmt.Errorf("failed to create registry key %q: %w", keyPath, err)
 			return
 		}
-		if err = key.SetStringValue("", item.CommandString(manifestDir)); err != nil {
+		if err = key.SetExpandStringValue("", item.CommandString(manifestDir)); err != nil {
 			err = fmt.Errorf("failed to set command string: %w", err)
 			return
 		}
