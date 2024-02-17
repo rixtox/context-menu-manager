@@ -165,7 +165,7 @@
         "open-msvc": {
             "type": "folder",
             "title": "Open in MSVC...",
-            "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
+            "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
             "iconIndex": 0,
             "items": {
                 "VS2022 MSVC 17 COM x86": {
@@ -174,8 +174,8 @@
                     "command": [
                         "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x86", "-d", "%V/"
                     ],
-                    "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
-                    "iconIndex": 47
+                    "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
+                    "iconIndex": 44
                 },
                 "VS2022 MSVC 17 COM x64": {
                     "type": "item",
@@ -183,8 +183,8 @@
                     "command": [
                         "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x64", "-d", "%V/"
                     ],
-                    "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
-                    "iconIndex": 47
+                    "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
+                    "iconIndex": 44
                 },
                 "VS2022 MSVC 17 ENT x86": {
                     "type": "item",
@@ -192,8 +192,8 @@
                     "command": [
                         "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x86", "-d", "%V/"
                     ],
-                    "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
-                    "iconIndex": 47
+                    "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
+                    "iconIndex": 44
                 },
                 "VS2022 MSVC 17 ENT x64": {
                     "type": "item",
@@ -201,8 +201,8 @@
                     "command": [
                         "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x64", "-d", "%V/"
                     ],
-                    "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
-                    "iconIndex": 47
+                    "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
+                    "iconIndex": 44
                 },
                 "VS2022 MSVC 17 BuildTools x86": {
                     "type": "item",
@@ -210,8 +210,8 @@
                     "command": [
                         "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x86", "-d", "%V/"
                     ],
-                    "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
-                    "iconIndex": 47
+                    "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
+                    "iconIndex": 44
                 },
                 "VS2022 MSVC 17 BuildTools x64": {
                     "type": "item",
@@ -219,8 +219,8 @@
                     "command": [
                         "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x64", "-d", "%V/"
                     ],
-                    "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
-                    "iconIndex": 47
+                    "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
+                    "iconIndex": 44
                 }
             }
         },
@@ -229,7 +229,7 @@
             "title": "Open in MSVC (Admin)...",
             "admin": true,
             "extended": true,
-            "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
+            "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
             "iconIndex": 0,
             "items": {
                 "VS2022 MSVC 17 COM x86": {
@@ -239,8 +239,8 @@
                     "command": [
                         "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x86", "-d", "%V/"
                     ],
-                    "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
-                    "iconIndex": 47
+                    "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
+                    "iconIndex": 44
                 },
                 "VS2022 MSVC 17 COM x64": {
                     "type": "item",
@@ -249,8 +249,8 @@
                     "command": [
                         "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM x64", "-d", "%V/"
                     ],
-                    "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
-                    "iconIndex": 47
+                    "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
+                    "iconIndex": 44
                 },
                 "VS2022 MSVC 17 ENT x86": {
                     "type": "item",
@@ -259,8 +259,8 @@
                     "command": [
                         "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x86", "-d", "%V/"
                     ],
-                    "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
-                    "iconIndex": 47
+                    "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
+                    "iconIndex": 44
                 },
                 "VS2022 MSVC 17 ENT x64": {
                     "type": "item",
@@ -269,8 +269,8 @@
                     "command": [
                         "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 ENT x64", "-d", "%V/"
                     ],
-                    "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
-                    "iconIndex": 47
+                    "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
+                    "iconIndex": 44
                 },
                 "VS2022 MSVC 17 BuildTools x86": {
                     "type": "item",
@@ -279,8 +279,8 @@
                     "command": [
                         "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x86", "-d", "%V/"
                     ],
-                    "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
-                    "iconIndex": 47
+                    "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
+                    "iconIndex": 44
                 },
                 "VS2022 MSVC 17 BuildTools x64": {
                     "type": "item",
@@ -289,8 +289,8 @@
                     "command": [
                         "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 BuildTools x64", "-d", "%V/"
                     ],
-                    "iconPath": "%CommonProgramFiles(x86)%\\microsoft shared\\MSEnv\\VSFileHandler.dll",
-                    "iconIndex": 47
+                    "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
+                    "iconIndex": 44
                 }
             }
         }
