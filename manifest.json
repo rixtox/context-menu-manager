@@ -186,6 +186,24 @@
                     "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
                     "iconIndex": 44
                 },
+                "VS2022 MSVC 17 COM ARM": {
+                    "type": "item",
+                    "title": "VS2022 MSVC 17 COM ARM",
+                    "command": [
+                        "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM ARM", "-d", "%V/"
+                    ],
+                    "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
+                    "iconIndex": 44
+                },
+                "VS2022 MSVC 17 COM ARM64": {
+                    "type": "item",
+                    "title": "VS2022 MSVC 17 COM ARM64",
+                    "command": [
+                        "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\wt.exe", "-w", "1", "new-tab", "-p", "VS2022 MSVC 17 COM ARM64", "-d", "%V/"
+                    ],
+                    "iconPath": "%CommonProgramFiles(x86)%\\Microsoft Shared\\MSEnv\\VSFileHandler.dll",
+                    "iconIndex": 44
+                },
                 "VS2022 MSVC 17 ENT x86": {
                     "type": "item",
                     "title": "VS2022 MSVC 17 ENT x86",
